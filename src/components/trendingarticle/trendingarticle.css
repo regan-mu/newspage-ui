@@ -1,0 +1,26 @@
+.news__trends-article {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.news__trends-article_img {
+    height: 100%;
+}
+.news__trends-article h2 {
+    color: rgb(133, 133, 133);
+    font-size: 2.5rem;
+
+}
+.news__trends-article h3 {
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.news__trends-article h3:hover {
+    color: var(--button-color);
+}
+.news__trends-article p {
+    font-size: 0.9rem;
+}
